@@ -1,0 +1,27 @@
+from setuptools import setup
+
+setup(name='btcturk',
+      url="https://github.com/erhan/pybtcturk",
+      license='MIT',
+      version='0.0.4',
+      packages=['btcturk'],
+      modules=['btcturk'],
+      keywords=['btcturk', 'bitcoin', 'exchange', "btc", "eth", "xrp"],
+      install_requires=['requests'],
+      description='Python btcturk.com API wrapper.',
+      author='Erhan BUTE',
+      author_email='erhan@pysoft.io',
+      classifiers=[
+          'Intended Audience :: Developers',
+          'License :: OSI Approved :: MIT License',
+          'Operating System :: OS Independent',
+          'Programming Language :: Python :: 2',
+          'Programming Language :: Python :: 2.7',
+          'Programming Language :: Python :: 3',
+          'Programming Language :: Python :: 3.3',
+          'Programming Language :: Python :: 3.4',
+          'Programming Language :: Python :: 3.5',
+          'Programming Language :: Python :: 3.6',
+          'Programming Language :: Python',
+          'Topic :: Office/Business :: Financial',
+      ])
