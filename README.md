@@ -1,6 +1,10 @@
 # pybtcturk
   
 Python client for the [Btcturk Api](https://github.com/BTCTrader/broker-api-docs).  
+
+  [![Build version](https://img.shields.io/badge/pypi-0.0.4-brightgreen.svg)](https://pypi.python.org/pypi/btcturk)
+  [![License](https://img.shields.io/badge/license-mit-lightgrey.svg)](https://pypi.python.org/pypi/btcturk)
+  [![Python version](https://img.shields.io/badge/python-2.7%2C3.5%2C3.6-blue.svg)](https://pypi.python.org/pypi/btcturk)
   
   
 ## Installation  
