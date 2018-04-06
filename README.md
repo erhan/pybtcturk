@@ -10,7 +10,7 @@ pip install btcturk
 ```  
 
 ```  
-pip install git+git@github.com:erhan/pybtcturk.git
+pip install git+git://github.com/erhan/pybtcturk.git
 ```  
   
 ## Usage  
