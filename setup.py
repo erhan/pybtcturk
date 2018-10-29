@@ -3,7 +3,7 @@ from setuptools import setup
 setup(name='btcturk',
       url="https://github.com/erhan/pybtcturk",
       license='MIT',
-      version='0.0.4',
+      version='0.0.5',
       packages=['btcturk'],
       modules=['btcturk'],
       keywords=['btcturk', 'bitcoin', 'exchange', "btc", "eth", "xrp"],

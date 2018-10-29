@@ -33,6 +33,7 @@ class Btcturk():
         resp = None
         url = requests.compat.urljoin(self.BASE_URL, path)
         headers = self._headers(protection)
+        headers["user-agent"] = "Mozilla/5.0"
         if method == "GET":
             resp = requests.get(url=url, headers=headers, params=params, data=data)
         elif method == "POST":
